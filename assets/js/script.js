@@ -1,14 +1,19 @@
 // Wait for the DOM to finish loading before running the game
 // Get the button elements and add event listeners to them
 
-/*  Prompt Player to enter any one of the following entries: ROCK, PAPER, SCISSORS, LIZZARD, SPOCK. */
-var playerChoice = prompt("Please enter ROCK, PAPER, SCISSORS, LIZZARD, SPOCK");
-/*  getPlayerMove() method uses Scanner class to get the move of the player. This method will print and return the move enter by the player. */
-function getPlayerMove() {
-  return playerChoice;
-}
-/*  getComputerMove() method uses Random class nextInt(num) method. nextInt(num) method produces the random number between 0 (inclusive) and num (exclusive). getComputerMove() method will print and return the computer move. */
-function getComputerMove() {
+const computerChoiceDisplay = document.getElementById('computer-choice')
+const playerChoiceDiplay = document.getElementById('player-choice')
+const result = document.getElementById('result')
+const possibleChoices = document.querySelectorAll('button')
+let playerChoice 
+
+possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener('click', (event) => {
+      playerChoice = e.target.id
+      playerChoiceDiplay.innerHTML = playerChoice
+    gernerateComputerChoice()
+}))
+/*  getComputerMove() method uses Random class method will print and return the computer move. */
+function gernerateComputerChoice {
   var computerChoice = Math.floor(Math.random() * 5);
   if (computerChoice == 0) {
     return "ROCK";
@@ -22,6 +27,8 @@ function getComputerMove() {
     return "SPOCK";
   }
 }
+
+
 /*  If playerMove and computerMove are the same, then the game is a tie or draw. */
 function getWinner(playerMove, computerMove) {
   if (playerMove == computerMove) {
