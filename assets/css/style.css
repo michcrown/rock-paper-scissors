@@ -1,11 +1,121 @@
-#rules {
-    color: black;
-    text-align: center;
+h1 {
+    font-size: 2.5em;
+    color: rgb(46, 45, 45);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0.2em;
+    border-bottom: 4px #000;
+
+}
+
+h2 {
     float: center;
-    text-decoration: none;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 70px;
 }
 
-ul {
-    list-style-type: none;
+#video {
+    text-align: center;
 }
 
+#choice-section {
+    float: center;
+    font-size: 1.5em;
+    text-align: center;
+    color: rgb(46, 45, 45);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/* button styling with hovers */
+#buttons {
+    float: center;
+    text-align: center;
+    margin-top: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#rock {
+    background-color: darkgray;
+    color: white;
+    font-size: 1em;
+    letter-spacing: 1px;
+    font-weight: bolder;
+    width: 10em;
+    height: 6em;
+    border: 4px double #000;
+    border-radius: 10px;
+}
+
+#rock:hover {
+    background-color: rgb(69, 66, 66);
+    transition: 0.7s;
+}
+
+#paper {
+    background-color: whitesmoke;
+    color: black;
+    font-size: 1em;
+    letter-spacing: 1px;
+    font-weight: bolder;
+    width: 10em;
+    height: 6em;
+    border: 4px double #000;
+    border-radius: 10px;
+}
+
+#paper:hover {
+    background-color: rgb(186, 182, 182);
+    transition: 0.7s;
+}
+
+#scissors {
+    background-color: rgb(245, 78, 78);
+    color: white;
+    font-size: 1em;
+    letter-spacing: 1px;
+    font-weight: bolder;
+    width: 10em;
+    height: 6em;
+    border: 4px double #000;
+    border-radius: 10px;
+}
+
+#scissors:hover {
+    background-color: rgb(245, 15, 15);
+    transition: 0.7s;
+}
+
+#lizzard {
+    background-color: rgb(108, 163, 115);
+    color: white;
+    font-size: 1em;
+    letter-spacing: 1px;
+    font-weight: bolder;
+    width: 10em;
+    height: 6em;
+    border: 4px double #000;
+    border-radius: 10px;
+}
+
+#lizzard:hover {
+    background-color: green;
+    transition: 0.7s;
+}
+
+#spock {
+    background-color: rgb(109, 132, 176);
+    color: white;
+    font-size: 1em;
+    letter-spacing: 1px;
+    font-weight: bolder;
+    width: 10em;
+    height: 6em;
+    border: 4px double #000;
+    border-radius: 10px;
+}
+
+#spock:hover {
+    background-color: blue;
+    transition: 0.7s;
+}
