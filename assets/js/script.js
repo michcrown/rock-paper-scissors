@@ -1,6 +1,7 @@
 // Wait for the DOM to finish loading before running the game
 // Get the button elements and add event listeners to them
 
+/* Found how-to https://www.youtube.com/watch?v=RwFeg0cEZvQ */
 const computerChoiceDisplay = document.getElementById('computer-choice');
 const playerChoiceDiplay = document.getElementById('player-choice');
 const resultDisplay = document.getElementById('result');
