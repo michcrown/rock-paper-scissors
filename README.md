@@ -2,6 +2,8 @@
 
 This project is the Portfolio 2 project. This aims to create a game of "Rock, Paper, Lizzard, Spock" using HTML, CSS, and Javascript. 
 
+<img width="1181" alt="Screen Shot 2023-01-09 at 2 05 25 pm" src="https://user-images.githubusercontent.com/113892139/211326475-5cbc6642-ee5d-4728-b93e-e5c54989693b.png">
+
 ## Features 
 
 In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
@@ -36,13 +38,13 @@ In this section, you should go over the different parts of your project, and des
 
 ## Testing 
 
-All buttons have been tested to ensure correct results were recorded in the Javascript section.
+- All buttons have been tested to ensure correct results were recorded in the Javascript section.
+- All sizes of media queries were double checked and buttons and titles were resized to ensure these fit to mobile screens.
+- Checked to ensure page was accessible on Lighthouse for Desktop. 
+<img width="422" alt="Screen Shot 2023-01-09 at 2 10 31 pm" src="https://user-images.githubusercontent.com/113892139/211327559-4f220066-4743-4648-8569-e12a2da7dba6.png">
+- Checked to ensure site was accessible for mobiles
+<img width="418" alt="Screen Shot 2023-01-09 at 2 14 34 pm" src="https://user-images.githubusercontent.com/113892139/211328477-9e59633e-baf8-4cad-bfef-94863ab8fc2c.png">
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 
 ### Validator Testing 
@@ -61,7 +63,7 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ### Unfixed Bugs
 
-
+- The video could have been sized up on desktops, however this was not done to leave the size correct for mobiles.
 
 ## Deployment
 
@@ -78,9 +80,11 @@ The live link can be found here - https://michcrown.github.io/rock-paper-scissor
 ## Credits 
 
 For the main game function for the Javascript a tutorial from https://www.youtube.com/watch?v=RwFeg0cEZvQ  was used. 
+
 - This was used to ensure the script was not only functional but was susinct and easily read. 
 
 For the hover effect for buttons the transition tutorial was used from here, https://www.freecodecamp.org/news/css-button-style-hover-color-and-background/. 
+
 - This was used as this is not an effect that I have come across yet, and I thought the transition looked nice on the buttons.
 
 ### Content 
